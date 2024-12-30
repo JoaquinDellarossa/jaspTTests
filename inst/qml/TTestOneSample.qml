@@ -40,7 +40,7 @@ Form
 	Group
 	{
 		title: qsTr("Tests")
-		CheckBox { name: "student";		label: qsTr("Student"); checked: true	}
+		CheckBox { name: "student";		label: qsTr("Student"); info: qsTr("The student's t-test. This options is selected by default."); checked: true	}
 		CheckBox { name: "wilcoxon";	label: qsTr("Wilcoxon signed-rank")		}
 		CheckBox { name: "zTest";			label: qsTr("Z Test"); id: zTest		}
 		DoubleField { name: "testValue";	label: qsTr("Test value:");		defaultValue: 0;	negativeValues: true	}
