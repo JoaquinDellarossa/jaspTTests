@@ -23,7 +23,8 @@ import JASP.Controls
 import "./common" as Common
 
 Form
-{
+{	
+	info: qsTr("The one sample t-test allows the user to estimate the effect size and test the null hypothesis that the population mean equals specific constant, i.e., the test value.")
 	id: form
 	property int framework:	Common.Type.Framework.Classical
 
